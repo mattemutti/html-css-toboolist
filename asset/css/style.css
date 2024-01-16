@@ -166,6 +166,7 @@ body{
     width: 6rem;
     height: 3rem;
     font-size: 1rem;
+    border-color: rgb(111, 149, 226);
 }
 
 .button-section{
@@ -176,8 +177,45 @@ body{
     width: 8rem;
     height: 3rem;
     font-size: 1rem;
+    border-color: rgb(241, 241, 241);
 }
 
 .container2{
-    background-color:  rgba(246, 248, 249, 1);
+    width: 1000px;
+    margin: auto;
+    margin-top: 2px;
+    background-color: white;
+    padding: 5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-top: 2rem;
+    border-radius: 12px;
+    
+}
+
+.title{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.text{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 1.5rem;
+}
+.editorial{
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(111, 149, 226);
+    border-radius: 8px;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-color:rgb(111, 149, 226) ;
+}
+
+.freccia{
+    color: green;
+    border-color: green ;
+    border-radius: 50%;
 }
