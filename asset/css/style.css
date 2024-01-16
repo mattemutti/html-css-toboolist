@@ -144,6 +144,7 @@ body{
     padding-top: 1rem;
     padding: 1rem;
     padding-bottom: 1px;
+    
 }
 
 
@@ -190,6 +191,8 @@ body{
     border-bottom: 3px solid rgb(255, 255, 255);
     padding-top: 2rem;
     border-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     
 }
 
@@ -199,7 +202,7 @@ body{
 }
 
 .text{
-    font-size: 20px;
+    font-size: 18px;
     font-family: sans-serif;
     padding-top: 1.5rem;
 }
@@ -217,5 +220,45 @@ body{
 .freccia{
     color: green;
     border-color: green ;
+    border-radius: 50%;
+}
+
+.container3{
+    width: 1000px;
+    margin: auto;
+    margin-top: 0px;
+    background-color: white;
+    padding: 5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-top: 2rem;
+   
+}
+
+.goals{
+    font-family: sans-serif;
+    color: white;
+    background-color: rgba(216, 99, 161, 1);
+    border-radius: 8px;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-color:rgba(216, 99, 161, 1) ;
+}
+
+.recruiting{
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(77, 193, 183);
+    border-radius: 8px;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-color:rgb(77, 193, 183) ;
+}
+
+.x{
+    color: red;
+    border-color: red ;
     border-radius: 50%;
 }
