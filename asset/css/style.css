@@ -224,6 +224,7 @@ body{
 
 .freccia{
     color: green;
+    border-style: solid;
     border-color: green ;
     border-radius: 50%;
 }
@@ -232,6 +233,7 @@ body{
 
 .x{
     color: red;
+    border-style: solid;
     border-color: red ;
     border-radius: 50%;
 }
